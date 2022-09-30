@@ -1,3 +1,666 @@
-body h1 {
-  color: blueviolet;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.header-top-hover {
+  border: 1px solid transparent;
+}
+
+.header-top-hover:hover {
+  border-radius: 2px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.header-top {
+  height: 60px;
+  background-color: #131921;
+  display: flex;
+  position: static;
+  float: none;
+  flex-flow: row nowrap;
+  width: 100%;
+  line-height: 1em;
+}
+
+.header-top .nav-logo {
+  background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+  background-position: 0 866px;
+  margin-left: 11px;
+  padding-top: 4px;
+  height: 55px;
+  width: 113px;
+}
+
+/* ------------------------------------------------------------------ */
+
+.deliverTo {
+  margin-left: 6px;
+  margin-bottom: 8px;
+  width: auto;
+  height: 60px;
+  width: 89px;
+  line-height: 12;
+  display: flex;
+  position: static;
+  float: none;
+}
+
+.deliverTo-span {
+  display: flex;
+  position: static;
+  float: none;
+  width: fit-content;
+  line-height: 1rem;
+  height: 60px;
+  width: 89px;
+}
+
+.deliverTo-a {
+  padding: 0 9px 0 9px;
+  margin: 5px 2px 5px 0;
+  width: 85px;
+  height: 50px;
+  display: flex;
+  position: static;
+  float: none;
+  flex-flow: nowrap;
+  align-items: center;
+  width: fit-content;
+  line-height: 39px;
+  color: #d6d6d6;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.header-top .deliverTo > span > a .location-icon {
+  background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+  background-position: -71px -378px;
+  width: 15px;
+  height: 18px;
+  margin-top: 8px;
+  display: flex;
+  position: static;
+  float: none;
+  line-height: 39px;
+  color: #d6d6d6;
+  cursor: pointer;
+}
+
+.spans {
+  margin-left: 3px;
+  display: flex;
+  position: static;
+  float: none;
+  flex-flow: column nowrap;
+  margin-top: 8px;
+  left: 2px;
+  top: 8px;
+  width: 51px;
+  height: 30px;
+}
+
+.span-deliver {
+  color: #ccc;
+  margin-top: 0;
+  padding-right: 0;
+  font-size: 12px;
+  line-height: 14px;
+  height: 14px;
+  width: 51px;
+  font-weight: 400;
+  float: left;
+  clear: both;
+  white-space: nowrap;
+}
+
+.span-israel {
+  color: #fff;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 700;
+  width: 51px;
+  height: 16px;
+  float: left;
+  clear: both;
+  white-space: nowrap;
+}
+
+/* ------------------------------------------------------------------ */
+
+.nav-fill {
+  height: 60px;
+  display: flex;
+  position: static;
+  float: none;
+  flex: 1 1 auto;
+  overflow: visible;
+  width: auto;
+  white-space: nowrap;
+  line-height: 1em;
+  color: #0f1111;
+}
+
+.nav-search {
+  margin: 0 18px;
+  padding: 10px 4px 10px 3px;
+  height: 60px;
+  display: flex;
+  position: static;
+  float: none;
+  flex: 1 1 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 4px 4px 4px 4px;
+  /* width: auto;
+  line-height: 1em;
+  color: #0f1111; */
+}
+
+.form {
+  display: flex;
+  position: static;
+  float: none;
+  flex: 1 1 0px;
+  height: 40px;
+  margin-bottom: 0;
+  border-radius: 4px 4px 4px 4px;
+  white-space: nowrap;
+  line-height: 12px;
+}
+
+.nav-left {
+  display: flex;
+  position: static;
+  float: none;
+  height: auto;
+  width: auto;
+}
+
+.test1 {
+  /* background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png); */
+  /* background-position: 0 -532px; */
+  background-color: #f3f3f3;
+  display: flex;
+  position: relative;
+  float: none;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /* border-color: #f3f3f3;
+  border-image: none;
+  border-left: 1px solid #f3f3f3;
+  border-top: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3; */
+  height: 40px;
+  margin: 0;
+  margin-left: 5px;
+  overflow: hidden;
+  /* border: 4px solid #cdcdcd; */
+  border-radius: 4px 0 0 4px;
+}
+
+.test2 {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  top: 3px;
+  padding-left: 5px;
+  line-height: 12px;
+}
+
+.test2-span {
+  display: block;
+  width: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #555;
+  font-size: 12px;
+  line-height: 33px;
+  margin-right: 21px;
+  margin-left: 5px;
+  min-width: 19px;
+}
+
+.test2-i {
+  position: absolute;
+  top: 14px;
+  right: 8px;
+  border: 4px solid transparent;
+  border-top: 4px solid #666;
+  border-bottom-width: 0;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+  background-position: 0 1000px;
+}
+
+.selector {
+  display: block;
+  top: 2.5px;
+  position: absolute;
+  left: 0px;
+  height: 35px;
+  width: auto;
+  font-family: inherit;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0;
+  visibility: visible;
+  border: 0;
+  line-height: 35px;
+  white-space: nowrap;
+  font-size: 100%;
+}
+
+.nav-search-field {
+  display: flex;
+  position: static;
+  float: none;
+  flex: 1 1 0px;
+  border: none;
+  border-top: 1px solid transparent;
+  height: 40px;
+  background: #fff;
+}
+
+.nav-search-field-input {
+  display: flex;
+  position: static;
+  float: none;
+  width: 100%;
+  line-height: 15px;
+  padding: 7px 10px 10px 0;
+  margin: 0;
+  border: 0;
+  height: 38px;
+  font-family: inherit;
+  font-size: 15px;
+  background: 0 0;
+  color: #111;
+  outline: 0;
+  box-shadow: none;
+  text-indent: 8px;
+  direction: 1tr;
+}
+
+.nav-iss-attach {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  line-height: 1;
+}
+
+.nav-right {
+  min-width: auto;
+  display: flex;
+  position: static;
+  float: none;
+  height: auto;
+  width: auto;
+}
+
+.nav-right-div {
+  display: flex;
+  position: static;
+  float: none;
+  background-color: #febd69;
+  background-image: none;
+  border: none;
+  width: 45px;
+  height: 40px;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  /* background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png); */
+  background-position: 0 -381px;
+  white-space: nowrap;
+}
+
+.nav-right-span {
+  display: flex;
+  position: static;
+  float: none;
+  flex: 1 1 auto;
+  width: auto;
+  height: auto;
+  background-position: 2px -280px;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+  text-indent: -500px;
+  color: #111;
+  text-shadow: none;
+}
+
+.nav-right-input {
+  display: flex;
+  position: static;
+  float: none;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  outline: 0;
+  color: #fff;
+  background: 0 0;
+  border: none;
+  text-indent: -1000px;
+  line-height: 1px;
+}
+
+/* ------------------------------------------------------------------ */
+
+.nav-tools {
+  display: flex;
+  position: static;
+  float: none;
+  text-decoration: none;
+  margin-top: 2px;
+  padding: 3px 0 0 0;
+}
+
+.language {
+  /* margin-right: 0;
+  margin-left: 1px;
+  padding-left: 9px;
+  margin: 0 1px 0 1px;
+  padding-bottom: 5px;
+  padding: 0 9px 10px; */
+  display: flex;
+  position: static;
+  float: none;
+  flex-shrink: 0;
+  flex-flow: column nowrap;
+  justify-content: center;
+  text-decoration: none;
+  height: 50px;
+  overflow: hidden;
+  line-height: 44px;
+  color: #d6d6d6;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.language-span1 {
+  /* margin: 0;
+  padding: 0; */
+  align-items: center;
+}
+
+.language-span2 {
+  margin-top: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-right: 8px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  height: 14px;
+  font-weight: 400;
+  clear: both;
+  white-space: nowrap;
+  margin-top: 2px;
+}
+
+.nav-line-2-1 {
+  display: flex;
+  position: static;
+  float: none;
+  align-items: center;
+  margin-left: 1px;
+  padding-top: 0;
+  margin-top: 0;
+  /* padding-bottom: 30px; */
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 700;
+  clear: both;
+}
+
+.flag {
+  transform: scale(.8);
+  margin: 0 2px 1px 0;
+  display: flex;
+  position: static;
+  float: none;
+  align-items: center;
+  padding: 0;
+  background: url(https://m.media-amazon.com/images/S/sash/fe2UeLQmJ11kKHN.png);
+  background-position: 0 -130px;
+  width: 24px;
+  height: 18px;
+}
+
+.nav-arrow {
+  visibility: visible;
+  margin: -3px 0 0 2px;
+  display: flex;
+  position: static;
+  float: none;
+  align-items: center;
+  padding: 0;
+  border-top: #a7acb2;
+  border-style: solid;
+  border-width: 4px;
+  border-color: transparent;
+  border-top: 4px solid #686868;
+  border-bottom-width: 0;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+  background-position: 0 1000px;
+  font-weight: 700;
+}
+
+.nav-line-2-2 {
+  width: auto;
+  min-width: 0;
+  display: flex;
+  position: static;
+  float: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 700;
+  clear: both;
+  white-space: nowrap;
+
+}
+
+/* ------------------------------- */
+.sign-in {
+  color: #fff;
+  margin-left: 6px;
+  margin-right: 0;
+  padding-right: 9px;
+  padding-left: 9px;
+  display: flex;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  align-items: flex-start;
+  text-decoration: none;
+  padding: 0 9px 10px;
+  flex-shrink: 0;
+  flex-flow: column nowrap;
+  justify-content: center;
+  height: 58px;
+  overflow: hidden;
+  margin: 0 1px;
+  line-height: 44px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 0px;
+}
+
+.sign-in-div {
+  position: relative;
+  width: 100%;
+  height: 14px;
+  margin-top: 9px;
+  display: flex;
+  float: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  line-height: 44px;
+}
+
+.sign-in-span {
+  display: flex;
+  float: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  clear: both;
+  white-space: nowrap;
+  font-family: inherit;
+}
+
+/* ------------------------------- */
+.returns-orders {
+  color: #fff;
+  margin-left: 6px;
+  margin-right: 0;
+  padding-right: 9px;
+  padding-left: 9px;
+  padding: 0 9px 10px;
+  display: flex;
+  position: static;
+  float: none;
+  flex-shrink: 0;
+  flex-flow: column nowrap;
+  justify-content: center;
+  text-decoration: none;
+  margin: 0 1px 0 1px;
+  height: 50px;
+  overflow: hidden;
+  line-height: 44px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.nav-line-1 {
+  margin-top: 9px;
+  height: 14px;
+  display: flex;
+  position: static;
+  float: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  clear: both;
+  white-space: nowrap;
+}
+
+/* ------------------------------- */
+.cart {
+  margin-right: 15px;
+  margin-left: 6px;
+  padding-right: 9px;
+  padding-left: 9px;
+  display: flex;
+  position: static;
+  float: none;
+  flex-shrink: 0;
+  flex-flow: column nowrap;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 9px 11px 10px;
+  height: 50px;
+  overflow: hidden;
+  margin: 0 1px;
+  line-height: 44px;
+  color: #d6d6d6;
+  font-size: 14px;
+}
+
+.cart-div-1 {
+  position: relative;
+  padding-bottom: 1px;
+  display: flex;
+  float: none;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+  line-height: 44px;
+}
+
+.cart-amount {
+
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.header-mid {
+  height: 39px;
+  background-color: #232f3e;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.header-note {
+  height: 48px;
+  background-color: #d8f7eb;
+  padding: 14px 18px;
+}
+
+.header-note > div {
+  font-weight: 700;
+  line-height: 1em;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.header-bottom {
+  height: 14px;
+  /* border-top: 1px solid rgba(0, 0, 0, 0.17);
+  border-bottom: 1px solid rgba(0, 0, 0, .1); */
+  background-color: #fafafa;
+  margin: auto;
+  margin-top: 4px;
+  width: 60%;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.header-bottom > span {
+  width: 54.68%;
+  padding: 0 16px;
+  /* color: #0F1111; */
+  color: rgb(15, 17, 17);
+  font-size: 12px;
+  line-height: 16px;
+  text-size-adjust: 100%;
 }
