@@ -178,7 +178,7 @@ body {
   line-height: 12px;
 }
 
-.nav-left {
+.nav-left-1 {
   display: flex;
   position: static;
   float: none;
@@ -693,12 +693,88 @@ body {
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 
 .header-mid {
-  height: 39px;
+  max-height: 39px;
   background-color: #232f3e;
+  padding-left: 15px;
+  padding-top: 0;
+  display: flex;
+  position: static;
+  float: none;
+  flex-flow: row nowrap;
+  background-image: none;
+  width: 100%;
+  font-size: 12px;
 }
 
 /* ------------------------------------------------------------------ */
+.nav-left-2 {
+  margin-right: 0;
+  max-height: 39px;
+  display: flex;
+  position: static;
+  float: none;
+  width: auto;
+  font-size: 12px;
+}
 
+.all {
+  margin-right: 3px;
+  align-items: center;
+  width: auto;
+  height: auto;
+  border: none;
+  text-decoration: none;
+  padding: 8px 9px 8px 9px;
+  margin: 5px 0 6px 0;
+  font-size: 25px;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.all-icon-bars {
+  width: 17px;
+  height: 14px;
+  display: flex;
+  position: static;
+  float: none;
+  background: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+  background-position: -172px -255px;
+  font-style: italic;
+  float: left;
+}
+
+.all-span {
+  color: #fff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 5px;
+  white-space: nowrap;
+  float: right;
+}
+
+/* ------------------------------------------------------------------ */
+.nav-fill-2 {
+  margin-top: 10px;
+}
+
+.nav-a {
+  color: #fff;
+  margin: 5px 0 6px 0;
+  padding: 7px 11px;
+  box-shadow: none;
+  scroll-margin: 0;
+  height: 12px;
+  box-sizing: content-box;
+  /* border-color: #fff; */
+  text-decoration: none;
+  /* border: 1px solid; */
+  /* border-radius: 2px; */
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  line-height: 1.15;
+  white-space: nowrap;
+}
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 
