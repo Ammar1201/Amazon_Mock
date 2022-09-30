@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --logos: url('../img/logosAndIcons.png');
+  --flags: url('../img/flags.png');
 }
 
 body {
@@ -37,7 +39,7 @@ body {
 }
 
 .header-top .nav-logo {
-  background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+  background-image: var(--logos);
   background-position: 0 866px;
   margin-left: 11px;
   padding-top: 4px;
@@ -87,7 +89,7 @@ body {
 }
 
 .header-top .deliverTo > span > a .location-icon {
-  background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+  background-image: var(--logos);
   background-position: -71px -378px;
   width: 15px;
   height: 18px;
@@ -191,7 +193,7 @@ body {
 }
 
 .test1 {
-  /* background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png); */
+  /* background-image: var(--logos); */
   /* background-position: 0 -532px; */
   background-color: #f3f3f3;
   display: flex;
@@ -248,7 +250,7 @@ body {
   height: 0;
   font-size: 0;
   line-height: 0;
-  background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+  background-image: var(--logos);
   background-position: 0 1000px;
 }
 
@@ -333,7 +335,7 @@ body {
   overflow: hidden;
   cursor: pointer;
   border-radius: 0 4px 4px 0;
-  /* background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png); */
+  /* background-image: var(--logos); */
   background-position: 0 -381px;
   white-space: nowrap;
 }
@@ -346,7 +348,7 @@ body {
   width: auto;
   height: auto;
   background-position: 2px -280px;
-  background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+  background-image: var(--logos);
   text-indent: -500px;
   color: #111;
   text-shadow: none;
@@ -477,7 +479,7 @@ body {
   float: none;
   align-items: center;
   padding: 0;
-  background: url(https://m.media-amazon.com/images/S/sash/fe2UeLQmJ11kKHN.png);
+  background: var(--flags);
   background-position: 0 -130px;
   width: 24px;
   height: 18px;
@@ -501,7 +503,7 @@ body {
   height: 0;
   font-size: 0;
   line-height: 0;
-  background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+  background-image: var(--logos);
   background-position: 0 1000px;
   color: #fff;
   font-weight: 700;
@@ -680,7 +682,7 @@ body {
   align-items: center;
   padding: 0;
   margin: 0;
-  background: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+  background: var(--logos);
   background-position: -10px -340px;
   width: 38px;
   height: 26px;
@@ -774,7 +776,7 @@ body {
   display: flex;
   position: static;
   float: none;
-  background: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+  background: var(--logos);
   background-position: -172px -255px;
   font-style: italic;
   float: left;
