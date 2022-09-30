@@ -395,20 +395,38 @@ body {
   line-height: 44px;
   color: #d6d6d6;
   cursor: pointer;
-  margin-bottom: 20px;
+  font-size: 12px;
+  /* margin-bottom: 20px; */
 }
 
 .language-span1 {
   /* margin: 0;
-  padding: 0; */
+  padding: 0;
   align-items: center;
+  height: auto; */
+  padding-right: 0;
+  display: flex;
+  position: static;
+  float: none;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+  padding: 0;
+  line-height: 44px;
+  font-size: 14px;
 }
 
 .language-span2 {
   margin-top: 10px;
-  padding-bottom: 0;
-  margin-bottom: 0;
+  padding-bottom: 2px;
   padding-right: 8px;
+  display: flex;
+  position: static;
+  float: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
   color: #fff;
   font-size: 12px;
   line-height: 14px;
@@ -416,7 +434,19 @@ body {
   font-weight: 400;
   clear: both;
   white-space: nowrap;
-  margin-top: 2px;
+}
+
+.english-span {
+  display: flex;
+  position: static;
+  float: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  white-space: nowrap;
 }
 
 .nav-line-2-1 {
@@ -425,13 +455,14 @@ body {
   float: none;
   align-items: center;
   margin-left: 1px;
-  padding-top: 0;
-  margin-top: 0;
+  padding: 0;
+  margin: 0;
   /* padding-bottom: 30px; */
   font-size: 14px;
   line-height: 15px;
   font-weight: 700;
   clear: both;
+  white-space: nowrap;
 }
 
 .flag {
