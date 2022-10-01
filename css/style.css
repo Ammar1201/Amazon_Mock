@@ -4,6 +4,8 @@
   box-sizing: border-box;
   --logos: url('../img/logosAndIcons.png');
   --flags: url('../img/flags.png');
+  --ratings: url('../img/ratings.png');
+  --other: url('../img/other-icons.png');
 }
 
 body {
@@ -947,7 +949,7 @@ body {
 }
 
 .stars {
-  background-image: url(https://m.media-amazon.com/images/S/sash/ouR9NRElwmzAIev.png);
+  background-image: var(--ratings);
   background-position: -2px -42px;
   background-size: 512px 512px;
   background-repeat: no-repeat;
@@ -963,7 +965,7 @@ body {
   vertical-align: text-top;
   width: 7px;
   height: 5px;
-  background-image: url(https://m.media-amazon.com/images/S/sash/McBZv0ZvnbehkIx.png);
+  background-image: var(--other);
   background-position: -90px -5px;
   opacity: .6;
   display: inline-block;
@@ -1209,7 +1211,7 @@ tbody {
   min-width: 16px;
   height: 14px;
   float: left;
-  background: url(https://m.media-amazon.com/images/S/sash/kIT-Lj9i1Bch8yi.png) no-repeat;
+  background: url('../img/location-icon.png') no-repeat;
   background-size: auto;
   background-position: center;
   margin-right: 5px;
@@ -1309,7 +1311,7 @@ tbody {
 }
 
 .gift-i {
-  background: url(https://m.media-amazon.com/images/S/sash/ouR9NRElwmzAIev.png) no-repeat;
+  background: var(--ratings) no-repeat;
   background-size: 512px 512px;
   display: inline-block;
   vertical-align: top;
@@ -1530,7 +1532,7 @@ tbody {
   background-position: -123px -7px;
   display: inline-block;
   vertical-align: top;
-  background-image: url(https://m.media-amazon.com/images/S/sash/McBZv0ZvnbehkIx.png);
+  background-image: var(--other);
   background-size: 400px 900px;
   background-repeat: no-repeat;
   font-style: italic;
@@ -1605,7 +1607,7 @@ tbody {
   background-position: -105px -7px;
   display: inline-block;
   vertical-align: top;
-  background-image: url(https://m.media-amazon.com/images/S/sash/McBZv0ZvnbehkIx.png);
+  background-image: var(--other);
   background-size: 400px 900px;
   background-repeat: no-repeat;
   font-style: italic;
