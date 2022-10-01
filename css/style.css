@@ -1412,8 +1412,43 @@ tbody {
 
 /* ------------------------------------------------------------------ */
 .sponsored-left {
-  /* z-index: 1; */
   position: absolute;
   top: 84.5vh;
   left: 550px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+.searched-footer {
+  margin: auto;
+  width: 59%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.people-searched-for {
+  margin: auto;
+}
+
+.people-searched-for-div {
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  margin-right: 40px;
+  text-align: center;
+  vertical-align: top;
+  border-bottom: 2px solid #333;
+}
+
+.people-searched-for-div img {
+  margin-bottom: 10px;
+}
+
+.people-searched-for-div a {
+  text-decoration: none;
+}
+
+.people-searched-for-div a:hover {
+  text-decoration: underline;
+  color: #f08804;
 }
