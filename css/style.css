@@ -1428,12 +1428,13 @@ tbody {
 
 .people-searched-for {
   margin: auto;
+  margin-top: 20px;
 }
 
 .people-searched-for-div {
   display: inline-block;
   width: 140px;
-  height: 140px;
+  height: 192px;
   margin-right: 40px;
   text-align: center;
   vertical-align: top;
@@ -1442,6 +1443,8 @@ tbody {
 
 .people-searched-for-div img {
   margin-bottom: 10px;
+  width: 140px;
+  height: 140px;
 }
 
 .people-searched-for-div a {
@@ -1452,3 +1455,5 @@ tbody {
   text-decoration: underline;
   color: #f08804;
 }
+
+/* ------------------------------------------------------------------ */
