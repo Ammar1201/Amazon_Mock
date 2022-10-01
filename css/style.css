@@ -1418,6 +1418,21 @@ tbody {
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
+.also-search {
+  margin: auto;
+  width: 59%;
+  margin-top: 20px;
+}
+
+.also-search-span {
+  color: #c60;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  padding-bottom: 4px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
 .searched-footer {
   margin: auto;
   width: 59%;
@@ -1439,7 +1454,8 @@ tbody {
   margin-right: 40px;
   text-align: center;
   vertical-align: top;
-  border-bottom: 2px solid #333;
+  border-bottom: 1px solid #333;
+  border-radius: 5px;
 }
 
 .people-searched-for-div img {
@@ -1470,8 +1486,8 @@ tbody {
   color: #0F1111;
   font-size: 14px;
   line-height: 20px;
-  top: 98.5vh;
-  left: 498px;
+  top: 0;
+  left: 480px;
 }
 
 .side-arrow-left-link {
@@ -1545,7 +1561,7 @@ tbody {
   color: #0F1111;
   font-size: 14px;
   line-height: 20px;
-  top: 98.5vh;
+  top: 0;
   right: 520px;
 }
 
