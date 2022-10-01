@@ -860,3 +860,42 @@ body {
 .header-bottom > span > a:hover {
   text-decoration: underline;
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+.container {
+  margin: auto;
+  width: 59%;
+  margin-top: 20px;
+}
+
+.image-container {
+  margin-top: 30px;
+  margin-left: 20px;
+  display: flex;
+}
+
+.image-container-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container-left-img {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.image-container-left-img:hover {
+  border: 2px solid #f08804;
+}
+
+.image-container-left-img > img {
+  border: 2px solid #f08804;
+}
+
+.image-container-right {
+  display: flex;
+  margin-left: 5px;
+}
