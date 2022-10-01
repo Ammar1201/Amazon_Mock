@@ -866,10 +866,11 @@ body {
   margin: auto;
   width: 59%;
   margin-top: 20px;
+  display: flex;
 }
 
 .image-container {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-left: 20px;
   display: flex;
 }
@@ -891,11 +892,245 @@ body {
   border: 2px solid #f08804;
 }
 
-.image-container-left-img > img {
+/* .image-container-left:first-child {
   border: 2px solid #f08804;
-}
+} */
 
 .image-container-right {
   display: flex;
   margin-left: 5px;
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+.product-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.visit-store {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007185;
+}
+
+/* ------------------------------------------------------------------ */
+.ratings {
+  display: flex;
+  margin-top: 2px;
+}
+
+.stars-arrow {
+  text-decoration: none;
+  color: #007185;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Arial, sans-serif;
+  display: inline-block;
+  width: fit-content;
+}
+
+.stars {
+  background-image: url(https://m.media-amazon.com/images/S/sash/ouR9NRElwmzAIev.png);
+  background-position: -2px -42px;
+  background-size: 512px 512px;
+  background-repeat: no-repeat;
+  height: 18px;
+  width: 80px;
+  position: relative;
+  vertical-align: text-top;
+  display: inline-block;
+}
+
+.arrow {
+  margin: 5px 0 0 .385em;
+  vertical-align: text-top;
+  width: 7px;
+  height: 5px;
+  background-image: url(https://m.media-amazon.com/images/S/sash/McBZv0ZvnbehkIx.png);
+  background-position: -90px -5px;
+  opacity: .6;
+  display: inline-block;
+  background-size: 400px 900px;
+  background-repeat: no-repeat;
+}
+
+.rating {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+/* ------------------------------------------------------------------ */
+.price-section {
+  margin-top: 10px;
+}
+
+.price {
+  font-size: 28px;
+  color: #0F1111;
+  line-height: normal;
+  font-family: Arial, sans-serif;
+}
+
+.price-symbol {
+  position: relative;
+  top: -.75em;
+  font-size: 13px;
+  line-height: normal;
+}
+
+.price-whole {
+  font-size: 28px;
+  white-space: nowrap;
+}
+
+/* .price-whole > span {
+  position: absolute;
+  opacity: 0;
+} */
+
+.price-fraction {
+  position: relative;
+  top: -.75em;
+  font-size: 13px;
+  line-height: normal;
+}
+
+/* ------------------------------------------------------------------ */
+.fees-section {
+  margin-top: 10px;
+}
+
+.fees-section p span {
+  font-weight: 700;
+}
+
+.fees-section p a {
+  text-decoration: none;
+}
+
+.fees-section p a:hover {
+  color: #C7511F;
+}
+
+/* ------------------------------------------------------------------ */
+table {
+  margin-top: 10px;
+  margin-bottom: 4px;
+  width: 100%;
+  border-collapse: collapse;
+  /* height: 400px; */
+}
+
+tbody {
+  border-collapse: collapse;
+}
+
+.tr-spec {
+  border-collapse: collapse;
+}
+
+.td-spec-type {
+  padding: 3px;
+  padding-top: 0;
+  padding-left: 0;
+  width: 26.18%;
+  vertical-align: top;
+  line-height: 28px;
+}
+
+.td-spec-type span {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  border-collapse: collapse;
+}
+
+.td-spec-detail {
+  padding: 3px;
+  padding-top: 0;
+  padding-right: 0;
+  width: 78.68%;
+  vertical-align: top;
+  line-height: 28px;
+  margin-left: 5px;
+}
+
+.td-spec-detail span {
+  font-size: 14px;
+  line-height: 20px;
+  border-collapse: collapse;
+}
+
+/* ------------------------------------------------------------------ */
+.about-info {
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+.about-info hr {
+  background-color: transparent;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top: 1px solid #e7e7e7;
+  display: block;
+  height: 1px;
+  line-height: 19px;
+  margin-bottom: 14px;
+  margin-top: 0;
+}
+
+.about-info h1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  padding-bottom: 4px;
+}
+
+.about-info ul {
+  margin: 0 0 0 18px;
+  margin-bottom: 4px;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Arial, sans-serif;
+  color: #0F1111;
+}
+
+.about-info ul li {
+  word-break: break-word;
+}
+
+.about-info ul li span {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* ------------------------------------------------------------------ */
+.compare-link {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007185;
+  margin-bottom: 10px;
+}
+
+.note {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.note-span {
+  font-weight: 700;
+}
+
