@@ -1533,4 +1533,78 @@ tbody {
 }
 
 /* ------------------------------------------------------------------ */
+.right-arrow {
+  height: 192px;
+  visibility: visible;
+  width: 40px;
+  position: absolute;
+  z-index: 1;
+  padding-left: 3px;
+  overflow: visible;
+  min-height: 1px;
+  color: #0F1111;
+  font-size: 14px;
+  line-height: 20px;
+  top: 98.5vh;
+  right: 520px;
+}
 
+.right-arrow-link {
+  top: 76.8001px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(213,217,217,.5);
+  color: #007185;
+  position: relative;
+  margin-top: -16px;
+  height: auto;
+  background: #FFF;
+  border-color: #D5D9D9;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.right-arrow-span {
+  border-radius: 7px;
+  background: 0 0;
+  box-shadow: none;
+  padding: 6px;
+  line-height: 0;
+  height: auto;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.right-arrow-i {
+  margin: 5px 5px 5px 6px;
+  width: 11px;
+  height: 15px;
+  background-position: -105px -7px;
+  display: inline-block;
+  vertical-align: top;
+  background-image: url(https://m.media-amazon.com/images/S/sash/McBZv0ZvnbehkIx.png);
+  background-size: 400px 900px;
+  background-repeat: no-repeat;
+  font-style: italic;
+  line-height: 0;
+}
+
+.right-arrow-i-span {
+  border-radius: 7px;
+  background: 0 0;
+  box-shadow: none;
+  padding: 6px;
+  line-height: 0;
+  height: auto;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
