@@ -899,12 +899,14 @@ body {
 .image-container-right {
   display: flex;
   margin-left: 5px;
+
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 .product-details {
   display: flex;
   flex-direction: column;
+  /* width: 80%; */
 }
 
 .title-section {
@@ -1134,3 +1136,109 @@ tbody {
   font-weight: 700;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+.rigt-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  border: 1px solid #D5D9D9;
+  border-radius: 8px;
+  display: flex;
+}
+
+.inner-box {
+  padding: 14px 18px;
+  border-radius: 8px;
+}
+
+/* ------------------------------------------------------------------ */
+/* .ships{
+  margin-top: 10px;
+} */
+
+.margin10 {
+  margin-top: 10px;
+}
+
+.ships p span {
+  font-weight: 700;
+}
+
+/* ------------------------------------------------------------------ */
+.delivery {
+  margin-top: 10px;
+}
+
+.delivery p span {
+  font-weight: 700;
+}
+
+/* ------------------------------------------------------------------ */
+.deliverTo-israel {
+  margin-top: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #007185;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.link:hover {
+  color: #f08804;
+}
+
+.location-icon {
+  min-width: 16px;
+  height: 14px;
+  float: left;
+  background: url(https://m.media-amazon.com/images/S/sash/kIT-Lj9i1Bch8yi.png) no-repeat;
+  background-size: auto;
+  background-position: center;
+  margin-right: 5px;
+  margin-top: 2px;
+  text-align: left;
+}
+
+/* ------------------------------------------------------------------ */
+.order-soon {
+  color: #B12704;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+/* ------------------------------------------------------------------ */
+.btns {
+  display: flex;
+  flex-direction: column;
+  color: #0F1111;
+}
+
+.btn-cart {
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: #FFD814;
+  border: 1px solid #FCD200;
+  box-shadow: 0 2px 5px 0 rgba(213,217,217,.5);
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px 10px;
+  width: 204px;
+}
+
+.btn-buy {
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: #FFA41C;
+  border: 1px solid #FF8F00;
+  box-shadow: 0 2px 5px 0 rgba(213,217,217,.5);
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px 10px;
+  width: 204px;
+}
